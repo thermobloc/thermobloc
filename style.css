@@ -78,7 +78,7 @@ body {
   right: 18px;
   bottom: 0;
   height: 4px;
-  background: #1b77cf;
+  background: #1b77ce;
 }
 
 /* CONTENU PRINCIPAL */
@@ -136,7 +136,7 @@ body {
 .info-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.14);
-  border-top-color: #1b77cf;
+  border-top-color: #1b77ce;
 }
 
 .info-card h3 {
