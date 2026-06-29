@@ -78,7 +78,7 @@ body {
   right: 18px;
   bottom: 0;
   height: 4px;
-  background: #e30613;
+  background: #1b77cf;
 }
 
 /* CONTENU PRINCIPAL */
@@ -130,12 +130,13 @@ body {
   padding: 28px;
   border-top: 4px solid #db1015;
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-top-color 0.25s ease;
 }
 
 .info-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.14);
+  border-top-color: #1b77cf;
 }
 
 .info-card h3 {
